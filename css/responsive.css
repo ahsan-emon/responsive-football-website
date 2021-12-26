@@ -1,0 +1,119 @@
+/* -------------------------------
+ Responsive code here - Media Query 
+------------------------------------- */
+@media screen and (max-width: 688px) {
+  /* header responsive  */
+  header {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  nav {
+    display: block;
+    padding-bottom: 20px;
+  }
+  .header-container {
+    padding: 30px 20px;
+  }
+  .main-menu ul {
+    display: block;
+  }
+  .login-button a {
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .header-bottom-area .text-area {
+    width: 100%;
+  }
+  .header-bottom-area .text-area h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .header-bottom-area .text-area a {
+    padding: 8px 16px;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .header-bottom-area .img-area img {
+    width: 306px;
+    height: 188px;
+  }
+  /* player responsive  */
+  .player-container {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+  .players {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 27px;
+    justify-items: center;
+  }
+  .player {
+    width: 80%;
+    height: auto;
+  }
+  .player .player-img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 5px;
+  }
+  .player .player-img img {
+    width: 100%;
+  }
+  /* highlight area responsive  */
+  .highlight-flex {
+    display: block;
+  }
+  .highlight-text {
+    width: 100%;
+  }
+  .highlight-text h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .highlight-text p {
+    font-size: 14px;
+  }
+  .highlight-text a {
+    padding: 8px 18px;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .highlight-img {
+    width: 100%;
+    height: auto;
+  }
+  .highlight-img img {
+    width: 100%;
+  }
+  /* footer responsive  */
+  .footer-container {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+  .logo-part {
+    width: 100%;
+    height: auto;
+  }
+  .social-part ul {
+    margin: 10px 0;
+  }
+  .social-part ul li {
+    margin-right: 8px;
+  }
+  .social-part ul li a {
+    font-size: 10px;
+    padding: 4px 5px;
+    border-radius: 50%;
+  }
+  .copyright-text p {
+    font-size: 13px;
+  }
+}
