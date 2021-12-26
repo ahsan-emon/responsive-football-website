@@ -25,6 +25,9 @@
     display: inline-block;
     margin-top: 10px;
   }
+  .header-bottom-area {
+    display: block;
+  }
   .header-bottom-area .text-area {
     width: 100%;
   }
@@ -38,8 +41,8 @@
     margin-bottom: 15px;
   }
   .header-bottom-area .img-area img {
-    width: 306px;
-    height: 188px;
+    width: 100%;
+    height: auto;
   }
   /* player responsive  */
   .player-container {
