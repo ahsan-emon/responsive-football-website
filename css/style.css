@@ -1,0 +1,213 @@
+/* -----------
+ fonts link 
+----------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+/* ------------------
+ common and utilities 
+-------------------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+.header-container {
+  padding: 42px 124px 86px 156px;
+}
+.player-container {
+  width: 1050px;
+  margin: auto;
+  padding-bottom: 165px;
+}
+.footer-container {
+  width: 484px;
+  height: 213px;
+  margin: auto;
+  padding-bottom: 63px;
+}
+/* ----------------
+header style here 
+------------------- */
+header {
+  height: 677px;
+  background-color: #2d25a0;
+  margin-bottom: 70px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 67px 0;
+}
+.main-menu ul {
+  list-style: none;
+  display: flex;
+}
+.main-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 36px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.login-button a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 24px;
+  background-color: #e02c6d;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.login-button .fa-sign-in-alt {
+  margin-right: 8px;
+}
+.header-bottom-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-bottom-area .text-area {
+  width: 50%;
+}
+.header-bottom-area .text-area h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 64px;
+  margin-bottom: 27px;
+  line-height: 80px;
+}
+.header-bottom-area .text-area a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 24px;
+  background-color: #e02c6d;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  display: inline-block;
+}
+.header-bottom-area .text-area .fa-arrow-right {
+  margin-left: 8px;
+}
+.header-bottom-area .img-area img {
+  width: 556px;
+  height: 438px;
+}
+/* -----------------
+ players style here 
+--------------------- */
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 27px;
+  grid-column-gap: 30px;
+}
+.player {
+  width: 300px;
+  height: 426px;
+  padding: 15px 15px 33px 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player .player-img {
+  width: 300px;
+  height: 256px;
+  margin-bottom: 16px;
+}
+.player .player-img img {
+  width: 100%;
+}
+.player h2 {
+  font-size: 28px;
+  color: #18191f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.player p {
+  color: #6c6c6c;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+/* --------------------
+ highlight area style 
+------------------------ */
+.highlight-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.highlight-text {
+  width: 40%;
+}
+.highlight-text h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 8px;
+  line-height: 60px;
+}
+.highlight-text p {
+  color: #6c6c6c;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.highlight-text a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 24px;
+  background-color: #e02c6d;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 24px;
+}
+.highlight-text .fa-arrow-right {
+  margin-left: 8px;
+}
+.highlight-img {
+  width: 567px;
+  height: 427px;
+}
+.highlight-img img {
+  width: 100%;
+}
+/* ------------
+ footer style 
+---------------- */
+.logo-part {
+  width: 484px;
+  height: 110px;
+}
+.logo-part img {
+  width: 100%;
+}
+.social-part ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.social-part ul li {
+  margin-right: 14px;
+}
+.social-part ul li:last-child {
+  margin-right: 0px;
+}
+.social-part ul li a {
+  background-color: #e7e7e8;
+  color: #969bab;
+  font-size: 17px;
+  padding: 7px 8px;
+  border-radius: 50%;
+}
+.copyright-text p {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
